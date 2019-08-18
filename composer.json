@@ -26,5 +26,8 @@
         {
             "Emoji\\Test\\" : "tests/"
         }
+    },
+    "require": {
+        "illuminate/support": "^5.8"
     }
 }
