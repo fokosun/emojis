@@ -8,7 +8,7 @@ class EmojiServiceProvider extends ServiceProvider {
 
 	public function register()
 	{
-		$this->app->singleton('EmojiManager', function() {
+		$this->app->singleton('emoji', function() {
 			return new EmojiManager();
 		});
 	}
