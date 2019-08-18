@@ -1,1 +1,1 @@
-# emojis
+# This is strictly for learning purposes
