@@ -1,0 +1,30 @@
+{
+    "name": "florence/emojis",
+    "description": "This is strictly for learning purposes.",
+    "license": "MIT",
+    "keywords": ["php", "service providers", "laravel"],
+    "authors": [
+      {
+        "name": "fokosun",
+        "email": "okosunuzflorence@gmail.com"
+      }
+    ],
+    "require-dev": {},
+    "autoload":
+     {
+        "psr-4":
+        {
+            "Emoji\\" : "src/"
+        },
+
+        "classmap": ["src/"]
+    },
+
+    "autoload-dev":
+    {
+        "psr-4":
+        {
+            "Emoji\\Test\\" : "tests/"
+        }
+    }
+}
